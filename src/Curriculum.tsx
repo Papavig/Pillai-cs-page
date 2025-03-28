@@ -3,8 +3,8 @@ import { curriculumData, testimonials } from './data/data';
 
 export default function Curriculum() {
   return (
-    <section className="container mx-auto py-10 px-4">
-      <h1 className="text-3xl font-bold tracking-wide mb-6">Curriculum Structure</h1>      
+    <section className="max-w-7xl mx-auto py-10 px-4">
+      <h1 className="text-3xl font-bold tracking-wide mb-12">Curriculum Structure</h1>      
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Curriculum Section - Taking 2 columns on medium screens */}
         <div className="md:col-span-2">
