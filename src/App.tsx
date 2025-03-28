@@ -5,6 +5,7 @@ import Overview from "./Overview";
 import PillaiCollegeHeader from "./Header";
 import TestimonialsComponent from "./Testimonials";
 import OverlayButtons from "./Overlay";
+import Social from "./Socials";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <main className="grow">
           <Overview />
           <Aim />
-          {/* <Social /> */}
+          <Social />
           <Curriculum />
           <TestimonialsComponent />
           <OverlayButtons />
